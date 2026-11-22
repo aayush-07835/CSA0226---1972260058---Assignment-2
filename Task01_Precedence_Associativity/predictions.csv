@@ -1,0 +1,4 @@
+case_id,price,qty,senior,predicted_orig_total,predicted_orig_net,observed_orig_total,observed_orig_net,intended_total,intended_net,discrepancy
+Case_1,250,3,1,675,675,675,675,669.38,669.38,-5.62
+Case_2,45,3,1,121,121,121,121,120.49,120.49,-0.51
+Case_3,350,3,1,945,945,945,945,937.13,937.13,-7.87

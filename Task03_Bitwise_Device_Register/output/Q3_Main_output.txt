@@ -1,0 +1,8 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Q3_Main.c
+-------------------------------------------------------------------------
+00000101
+00000110
+AC is ON, PUMP is OFF
+Active devices count: 2
+Precedence check (reg=0x06, dev=2): reg & 1 << dev = 4, (reg & 1) << dev = 0

@@ -1,0 +1,9 @@
+ticket_n,classification,brute_force_i_lt_n,optimized_for_sqrt,optimized_while_sqrt,optimized_do_while_sqrt,sieve_query_divisions
+0,not prime,0,0,0,0,0
+1,not prime,0,0,0,0,0
+2,prime,0,0,0,0,0
+3,prime,1,0,0,0,0
+97,prime,95,8,8,8,0
+100,not prime,1,1,1,1,0
+7919,prime,7917,87,87,87,0
+1000003,prime,1000001,999,999,999,0

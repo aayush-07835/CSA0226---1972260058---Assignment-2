@@ -1,0 +1,24 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Q4_Switch.c
+-------------------------------------------------------------------------
+100:S 95:S 83:A 50:D 49:F -5:? 
+
+Boundary Test Suite (Switch):
+  marks =  101 -> grade = ?
+  marks =  100 -> grade = S
+  marks =   90 -> grade = S
+  marks =   89 -> grade = A
+  marks =   80 -> grade = A
+  marks =   79 -> grade = B
+  marks =   70 -> grade = B
+  marks =   69 -> grade = C
+  marks =   60 -> grade = C
+  marks =   59 -> grade = D
+  marks =   50 -> grade = D
+  marks =   49 -> grade = F
+  marks =    0 -> grade = F
+  marks =   -1 -> grade = ?
+
+Missing-Break Fall-Through Demonstration (marks = 83):
+  Normal switch(83)        = A
+  Missing break switch(83) = B (falls through from case 8 to case 7)

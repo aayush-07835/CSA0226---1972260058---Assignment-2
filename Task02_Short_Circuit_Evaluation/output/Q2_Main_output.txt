@@ -1,0 +1,20 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Q2_Main.c
+-------------------------------------------------------------------------
+=========================================================================
+TASK 2: SHORT-CIRCUIT EVALUATION EXPERIMENT (N = 1000, SEED = 42)
+=========================================================================
+Sample Distribution:
+  Senior Citizens (30% target)       : 297
+  Eligible Ticket Class (40% target) : 409
+  Both Senior & Eligible Class       : 115 (Short-circuits '||' RHS)
+  Disability Card Holders (15%)      : 150
+
+Condition Ordering Results:
+  1. (senior && class) || verify() : Concessions = 255 | Slow Calls = 885
+  2. (class && senior) || verify() : Concessions = 255 | Slow Calls = 885
+  3. verify() || (senior && class) : Concessions = 255 | Slow Calls = 1000
+
+Changed Condition (Audit Log Side Effect):
+  - When verify() is SECOND: Audit entries = 885 / 1000 (INCOMPLETE AUDIT!)
+  - When verify() is FIRST : Audit entries = 1000 / 1000 (COMPLETE AUDIT, Calls = 1000, Granted = 255)

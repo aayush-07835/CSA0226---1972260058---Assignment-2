@@ -1,0 +1,13 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Q5_Optimized_For.c
+-------------------------------------------------------------------------
+      97  prime      divisions = 8
+     100  not prime  divisions = 1
+    7919  prime      divisions = 87
+ 1000003  prime      divisions = 999
+
+Boundary Verification (n = 0, 1, 2, 3):
+       0  not prime  divisions = 0
+       1  not prime  divisions = 0
+       2  prime      divisions = 0
+       3  prime      divisions = 0

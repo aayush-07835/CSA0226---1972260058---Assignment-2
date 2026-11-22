@@ -1,0 +1,33 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Q1_Alternative.c
+-------------------------------------------------------------------------
+=========================================================================
+TASK 1: ALTERNATIVE STEP-BY-STEP INTERMEDIATE VARIABLE IMPLEMENTATION
+=========================================================================
+
+Test Case 1 (Price=250.00, Qty=3, Senior=1):
+  Gross Amount     : Rs   750.00
+  Senior Discount  : Rs   112.50
+  Taxable Value    : Rs   637.50
+  GST (5%)         : Rs    31.88
+  Total Bill       : Rs   669.38
+  Promo Deduction  : Rs     0.00
+  Final Payable    : Rs   669.38
+
+Test Case 2 (Price=45.00, Qty=3, Senior=1):
+  Gross Amount     : Rs   135.00
+  Senior Discount  : Rs    20.25
+  Taxable Value    : Rs   114.75
+  GST (5%)         : Rs     5.74
+  Total Bill       : Rs   120.49
+  Promo Deduction  : Rs     0.00
+  Final Payable    : Rs   120.49
+
+Test Case 3 (Price=350.00, Qty=3, Senior=1):
+  Gross Amount     : Rs  1050.00
+  Senior Discount  : Rs   157.50
+  Taxable Value    : Rs   892.50
+  GST (5%)         : Rs    44.62
+  Total Bill       : Rs   937.12
+  Promo Deduction  : Rs     0.00
+  Final Payable    : Rs   937.12

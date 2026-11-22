@@ -1,0 +1,15 @@
+marks,marks_div_10,expected_grade,else_if_output,switch_output,lookup_output,boundary_role,status
+101,10,?,?,?,?,Upper invalid boundary,PASS
+100,10,S,S,S,S,Maximum valid S boundary (case 10),PASS
+90,9,S,S,S,S,Lower S boundary,PASS
+89,8,A,A,A,A,Upper A boundary,PASS
+80,8,A,A,A,A,Lower A boundary,PASS
+79,7,B,B,B,B,Upper B boundary,PASS
+70,7,B,B,B,B,Lower B boundary,PASS
+69,6,C,C,C,C,Upper C boundary,PASS
+60,6,C,C,C,C,Lower C boundary,PASS
+59,5,D,D,D,D,Upper D boundary,PASS
+50,5,D,D,D,D,Lower D boundary,PASS
+49,4,F,F,F,F,Upper F boundary,PASS
+0,0,F,F,F,F,Minimum valid F boundary,PASS
+-1,0,?,?,?,?,Lower invalid boundary (truncation trap),PASS

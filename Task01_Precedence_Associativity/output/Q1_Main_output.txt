@@ -1,0 +1,34 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Q1_Main.c
+-------------------------------------------------------------------------
+=========================================================================
+TASK 1: ORIGINAL JAN AUSHADHI BILLING EXPRESSION (INTEGER ARITHMETIC)
+=========================================================================
+
+Case 1 (Standard Senior Bill)
+  Inputs         : price = Rs 250, qty = 3, senior = 1
+  Original total : Rs 675
+  Original net   : Rs 675
+  Intended total : Rs 669.38 (GST on discounted taxable amount)
+  Intended net   : Rs 669.38
+  Discrepancy    : Rs -5.62
+
+Case 2 (Fractional Rupee Loss)
+  Inputs         : price = Rs 45, qty = 3, senior = 1
+  Original total : Rs 121
+  Original net   : Rs 121
+  Intended total : Rs 120.49 (GST on discounted taxable amount)
+  Intended net   : Rs 120.49
+  Discrepancy    : Rs -0.51
+
+Case 3 (Threshold Boundary)
+  Inputs         : price = Rs 350, qty = 3, senior = 1
+  Original total : Rs 945
+  Original net   : Rs 945
+  Intended total : Rs 937.12 (GST on discounted taxable amount)
+  Intended net   : Rs 937.12
+  Discrepancy    : Rs -7.88
+
+Valid bill counter update (count = count + 1): count = 4
+Note: 'count = count++ + 1;' is omitted from executable logic because
+modifying and reading 'count' without a sequence point is Undefined Behaviour.

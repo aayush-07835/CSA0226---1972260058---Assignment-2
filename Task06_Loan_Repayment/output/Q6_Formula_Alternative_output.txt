@@ -1,0 +1,17 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic -lm
+Source  : Q6_Formula_Alternative.c
+-------------------------------------------------------------------------
+=========================================================================
+TASK 6: CLOSED-FORM FORMULA ALTERNATIVE: n = -log(1 - r*P/E) / log(1 + r)
+=========================================================================
+Monthly EMI | Exact Real n | Ceil(n) Months | Formula Total Interest | Domain Status
+------------+--------------+----------------+------------------------+--------------
+Rs  2000.00 |     5.320532 |              6 | Rs              641.06 | Valid
+Rs  1000.00 |    11.268381 |             12 | Rs             1268.38 | Valid
+Rs   500.00 |    25.795851 |             26 | Rs             2897.93 | Valid
+Rs   300.00 |    55.478108 |             56 | Rs             6643.43 | Valid
+Rs   250.00 |    81.273959 |             82 | Rs            10318.49 | Valid
+Rs   220.00 |   121.089754 |            122 | Rs            16639.75 | Valid
+Rs   205.00 |   187.529261 |            188 | Rs            28443.50 | Valid
+Rs   200.00 |    UNDEFINED |            N/A |                    N/A | Invalid (E <= r*P)
+Rs   180.00 |    UNDEFINED |            N/A |                    N/A | Invalid (E <= r*P)

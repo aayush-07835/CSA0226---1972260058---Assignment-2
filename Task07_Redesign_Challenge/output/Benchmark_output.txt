@@ -1,0 +1,22 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Benchmark.c
+-------------------------------------------------------------------------
+========================================================================================
+TASK 7: BENCHMARK COMPARISON (ORIGINAL BRUTE-FORCE vs REDESIGNED ODD-SQRT)
+========================================================================================
+   Input n | Status    | Orig Divs | Redesigned Divs | Saved     | Reduction | Speedup
+-----------+-----------+-----------+-----------------+-----------+-----------+--------
+         2 | prime     |         0 |               0 |         0 |     0.00% |   1.00x
+         3 | prime     |         1 |               1 |         0 |     0.00% |   1.00x
+        17 | prime     |        15 |               2 |        13 |    86.67% |   7.50x
+        97 | prime     |        95 |               5 |        90 |    94.74% |  19.00x
+       100 | not prime |         1 |               1 |         0 |     0.00% |   1.00x
+      1009 | prime     |      1007 |              16 |       991 |    98.41% |  62.94x
+      7919 | prime     |      7917 |              44 |      7873 |    99.44% | 179.93x
+    104729 | prime     |    104727 |             162 |    104565 |    99.85% | 646.46x
+   1000003 | prime     |   1000001 |             500 |    999501 |    99.95% | 2000.00x
+
+Batch Workload Benchmark (All integers 2..25000, Primes found = 2762 == 2762):
+  Original Total Divisions   : 32534310 (Time: 350.204 ms)
+  Redesigned Total Divisions : 222377 (Time: 3.884 ms)
+  Total Operation Reduction  : 99.3165%

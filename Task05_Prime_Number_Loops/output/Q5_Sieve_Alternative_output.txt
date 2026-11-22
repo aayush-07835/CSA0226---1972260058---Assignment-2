@@ -1,0 +1,17 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Q5_Sieve_Alternative.c
+-------------------------------------------------------------------------
+=========================================================================
+TASK 5: SIEVE OF ERATOSTHENES ALTERNATIVE (N = 1000003)
+=========================================================================
+Preprocessing composite markings : 2122051
+Auxiliary memory allocated       : 1000004 bytes (~976.57 KB)
+
+       0  not prime  query_divisions = 0 (O(1) array lookup)
+       1  not prime  query_divisions = 0 (O(1) array lookup)
+       2  prime      query_divisions = 0 (O(1) array lookup)
+       3  prime      query_divisions = 0 (O(1) array lookup)
+      97  prime      query_divisions = 0 (O(1) array lookup)
+     100  not prime  query_divisions = 0 (O(1) array lookup)
+    7919  prime      query_divisions = 0 (O(1) array lookup)
+ 1000003  prime      query_divisions = 0 (O(1) array lookup)

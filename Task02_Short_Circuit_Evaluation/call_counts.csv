@@ -1,0 +1,4 @@
+strategy,expression,total_passengers,concessions_granted,slow_verify_calls,audit_entries_recorded
+Order_1_Cheap_First,(is_senior && is_eligible_class) || verify(),1000,255,885,885
+Order_2_Class_First,(is_eligible_class && is_senior) || verify(),1000,255,885,885
+Order_3_Slow_First,verify() || (is_senior && is_eligible_class),1000,255,1000,1000

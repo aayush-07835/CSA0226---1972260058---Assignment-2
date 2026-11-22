@@ -1,0 +1,26 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Q1_Corrected.c
+-------------------------------------------------------------------------
+=========================================================================
+TASK 1: CORRECTED PHARMACY BILLING (FLOATING-POINT + CLEAR PRECEDENCE)
+=========================================================================
+
+[1] Bill 1 (Senior, Moderate)
+    Unit Price : Rs 250.00 | Qty : 3 | Senior : Yes
+    Total (incl. 5% GST) : Rs 669.38
+    Net Payable          : Rs 669.38
+
+[2] Bill 2 (Senior, Fractional)
+    Unit Price : Rs 45.00 | Qty : 3 | Senior : Yes
+    Total (incl. 5% GST) : Rs 120.49
+    Net Payable          : Rs 120.49
+
+[3] Bill 3 (Senior, Near 1000)
+    Unit Price : Rs 350.00 | Qty : 3 | Senior : Yes
+    Total (incl. 5% GST) : Rs 937.12
+    Net Payable          : Rs 937.12
+
+[4] Bill 4 (Non-Senior, > 1000)
+    Unit Price : Rs 400.00 | Qty : 3 | Senior : No
+    Total (incl. 5% GST) : Rs 1260.00
+    Net Payable          : Rs 1210.00

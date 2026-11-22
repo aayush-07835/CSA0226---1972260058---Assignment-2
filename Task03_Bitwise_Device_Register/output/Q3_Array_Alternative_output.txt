@@ -1,0 +1,9 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Q3_Array_Alternative.c
+-------------------------------------------------------------------------
+00000101
+00000110
+AC is ON, PUMP is OFF
+Active devices count: 2
+Memory per home: Bitwise = 1 byte vs Array = 8 bytes
+Memory for 1,000,000 homes: Bitwise = 1,000,000 bytes (~0.95 MB) vs Array = 8,000,000 bytes (~7.63 MB)

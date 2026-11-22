@@ -1,0 +1,15 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Original_Implementation.c
+-------------------------------------------------------------------------
+=========================================================================
+TASK 7: ORIGINAL IMPLEMENTATION (BRUTE-FORCE TRIAL DIVISION 2..n-1)
+=========================================================================
+       2  prime      divisions = 0
+       3  prime      divisions = 1
+      17  prime      divisions = 15
+      97  prime      divisions = 95
+     100  not prime  divisions = 1
+    1009  prime      divisions = 1007
+    7919  prime      divisions = 7917
+  104729  prime      divisions = 104727
+ 1000003  prime      divisions = 1000001

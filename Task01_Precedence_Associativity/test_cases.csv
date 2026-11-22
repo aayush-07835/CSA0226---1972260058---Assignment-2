@@ -1,0 +1,5 @@
+test_id,description,unit_price,quantity,is_senior,gross,discount,taxable_value,gst_5pct,total_bill,promo_deduction,net_payable
+TC01,Senior Moderate Bill,250.0,3,1,750.0,112.5,637.5,31.88,669.38,0.0,669.38
+TC02,Senior Fractional Loss,45.0,3,1,135.0,20.25,114.75,5.74,120.49,0.0,120.49
+TC03,Senior Threshold Boundary,350.0,3,1,1050.0,157.5,892.5,44.63,937.13,0.0,937.13
+TC04,Non-Senior Promo Above 1000,400.0,3,0,1200.0,0.0,1200.0,60.0,1260.0,50.0,1210.0

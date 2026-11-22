@@ -1,0 +1,6 @@
+step,statement,predicted_decimal,predicted_hex,predicted_binary,observed_binary,on_device_count,match
+1,unsigned char reg = 0;,0,0x00,00000000,00000000,0,YES
+2,"reg = switch_on(reg, LIGHT);",1,0x01,00000001,00000001,1,YES
+3,"reg = switch_on(reg, AC);",5,0x05,00000101,00000101,2,YES
+4,"reg = toggle(reg, FAN);",7,0x07,00000111,00000111,3,YES
+5,"reg = switch_off(reg, LIGHT);",6,0x06,00000110,00000110,2,YES

@@ -1,0 +1,13 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Q4_Scholarship.c
+-------------------------------------------------------------------------
+=========================================================================
+TASK 4: SCHOLARSHIP CLASSIFIER (2D DECISION LOOKUP TABLE)
+=========================================================================
+  Marks:  96 | Grade: S | Income: Rs 1.80 L -> 100% Merit-cum-Means
+  Marks:  92 | Grade: S | Income: Rs 9.50 L -> 50% Chancellor Merit
+  Marks:  84 | Grade: A | Income: Rs 4.20 L -> 75% Merit-cum-Means
+  Marks:  75 | Grade: B | Income: Rs 2.00 L -> 75% Means Support
+  Marks:  63 | Grade: C | Income: Rs 6.50 L -> No Scholarship
+  Marks:  54 | Grade: D | Income: Rs 2.20 L -> 25% Hardship Grant
+  Marks:  42 | Grade: F | Income: Rs 1.50 L -> Ineligible (Failed)

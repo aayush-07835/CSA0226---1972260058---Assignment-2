@@ -1,0 +1,10 @@
+monthly_repayment,months,total_interest,closing_balance,status
+2000.00,6,645.38,0.00,"Repaid Normally"
+1000.00,12,1270.33,0.00,"Repaid Normally"
+500.00,26,2898.73,0.00,"Repaid Normally"
+300.00,56,6644.17,0.00,"Repaid Normally"
+250.00,82,10318.98,0.00,"Repaid Normally"
+220.00,122,16639.92,0.00,"Repaid Normally"
+205.00,188,28444.00,0.00,"Repaid Normally"
+200.00,360,72000.00,10000.00,"STAGNANT (EMI == Interest; Safety Break at 360)"
+180.00,360,1311361.13,1256561.13,"DIVERGES (EMI < Interest; Safety Break at 360)"

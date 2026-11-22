@@ -1,0 +1,9 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Q2_Nested_If.c
+-------------------------------------------------------------------------
+=========================================================================
+TASK 2: NESTED-IF ALTERNATIVE (EQUIVALENT TO SHORT-CIRCUIT ORDER 1)
+=========================================================================
+Total Passengers    : 1000
+Concessions Granted : 255
+Slow Verify Calls   : 885 (Matches short-circuit Order 1 exactly)

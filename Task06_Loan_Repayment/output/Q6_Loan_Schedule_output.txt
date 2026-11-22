@@ -1,0 +1,36 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Q6_Loan_Schedule.c
+-------------------------------------------------------------------------
+=========================================================================
+TASK 6: SELF-HELP GROUP MICRO-LOAN REPAYMENT SCHEDULE
+Principal = Rs 10000.00 | Monthly Interest = 2.00% | EMI = Rs 2000.00
+=========================================================================
+
+Month | Opening Bal | Interest   | Repayment  | Closing Bal
+------+-------------+------------+------------+------------
+    1 |    10000.00 |     200.00 |    2000.00 |     8200.00
+    2 |     8200.00 |     164.00 |    2000.00 |     6364.00
+    3 |     6364.00 |     127.28 |    2000.00 |     4491.28
+    4 |     4491.28 |      89.83 |    2000.00 |     2581.11
+    5 |     2581.11 |      51.62 |    2000.00 |      632.73
+    6 |      632.73 |      12.65 |     645.38 |        0.00
+
+Summary (Base Case):
+  Total Months   : 6
+  Total Interest : Rs 645.38
+  Total Repaid   : Rs 10645.38
+
+=========================================================================
+GROWTH INVESTIGATION: ITERATIONS AS REPAYMENT APPROACHES INTEREST (Rs 200)
+=========================================================================
+Monthly EMI | Months | Total Interest | Status
+------------+--------+----------------+----------------------------------
+Rs  2000.00 |      6 | Rs      645.38 | Repaid Normally
+Rs  1000.00 |     12 | Rs     1270.33 | Repaid Normally
+Rs   500.00 |     26 | Rs     2898.73 | Repaid Normally
+Rs   300.00 |     56 | Rs     6644.17 | Repaid Normally
+Rs   250.00 |     82 | Rs    10318.98 | Repaid Normally
+Rs   220.00 |    122 | Rs    16639.92 | Repaid Normally
+Rs   205.00 |    188 | Rs    28444.00 | Repaid Normally
+Rs   200.00 |    360 | Rs    72000.00 | STAGNANT (EMI == Interest; Safety Break at 360)
+Rs   180.00 |    360 | Rs  1311361.13 | DIVERGES (EMI < Interest; Safety Break at 360)

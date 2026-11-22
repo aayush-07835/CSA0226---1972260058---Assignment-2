@@ -1,0 +1,9 @@
+SCREENSHOT PLACEHOLDER FOR Task03_Bitwise_Device_Register
+====================================================================
+Per academic integrity guidelines, no synthetic/fabricated terminal
+screenshots are pre-generated in this archive.
+
+Before submitting your GitHub repository, compile and run the C files
+in this folder on your local machine using the commands in README.md,
+capture genuine screenshots of your terminal output, and save them here.
+Verified plain-text execution logs from GCC 12.2.0 are available in ../output/.

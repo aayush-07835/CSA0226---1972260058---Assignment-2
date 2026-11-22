@@ -1,0 +1,14 @@
+Compiler: gcc (Debian 12.2.0) -std=c11 -Wall -Wextra -pedantic
+Source  : Q2_Bitwise_Comparison.c
+-------------------------------------------------------------------------
+=========================================================================
+TASK 2: NON-SHORT-CIRCUIT BITWISE (& and |) COMPARISON
+=========================================================================
+Total Passengers    : 1000
+Concessions Granted : 255
+Slow Verify Calls   : 1000 (100% of passengers evaluated; NO short-circuit)
+
+Bitwise '&' vs Logical '&&' Truthiness Pitfall:
+  flag_a = 2 (true), flag_b = 4 (true)
+  flag_a && flag_b = 1 (Correct logical AND)
+  flag_a &  flag_b = 0 (WRONG! Disjoint bits produce 0 / false)
